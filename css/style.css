@@ -36,24 +36,30 @@ body h2 {
   color: var(--secundary-color);
 }
 body header {
+  position: fixed;
+  width: 100vw;
+  top: 0;
   background-color: var(--color-white);
   padding: 10px 20px;
   box-shadow: 0 0 10px 0 var(--box-shadow);
+}
+@media (max-width: 700px) {
+  body header div {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 body header .logo {
   height: 50px;
 }
 body main {
+  margin-top: 74px;
   padding: 20px;
 }
 body main div.title {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-}
-body main div.title a.ver-yt {
-  display: flex;
-  align-items: center;
 }
 body main ul {
   list-style: none;
@@ -66,4 +72,19 @@ body main ul li b {
 }
 body main ul li b span {
   cursor: pointer;
+}
+@media (max-width: 700px) {
+  body main {
+    margin-top: 157px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+.flex.just_btw {
+  justify-content: space-between;
+}
+.flex.alig_ctr {
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
