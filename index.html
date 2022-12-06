@@ -22,18 +22,75 @@
         </div>
         <h2>O que foi aprendido:</h2>
         <ul>
-            <li><b>git --version</b> - para ver qual é a versão do git instalada;</li>
-            <li><b>git init</b> - para inicializar um novo repositório local;</li>
-            <li><b>git status</b> - para ver um status atualizado sobre o repositório;</li>
-            <li><b>git add \index.html</b> - após a criação de um arquivo, usar este comando para adicioná-lo ao fluxo do git;</li>
-            <li><b>git add .</b> - para adicionar todas as alterações existentes ao fluxo de versionamento do git;</li>
-            <li><b>git commit -a -m "create index.html"</b> - para fazer o commit das alterações;</li>
-            <li><b>git status</b> - para verificar o status de tudo que foi realizado.</li>
-            <li><b>git remote add origin <a href="https://github.com/juniortex/tutorial-git.git" target="_blank" title="link do repositório remoto">https://github.com/juniortex/tutorial-git.git</a></b> - para adicionar uma origem remota ao repositório, ou seja, fazer a conexão entre a pasta do repositório local com o repositório do github;</li>
-            <li><b>git branch -M main</b> - para nomear o branch principal como main e parear a branch principal local com a remota, sincronizando-as.</li>
-            <li><b>git push -u origin main</b> - para enviar o conteúdo do repositório local para o remoto, atualizando-o para que ambos tenham o mesmo conteúdo.</li>
-            <li><b>git checkout -b "teste"</b>: - cria uma branch nova com o nome 'teste' e muda o nosso fluxo para ela.</li>
-            <li><b>git push --set-upstream origin teste</b></li>
+            <li>
+                <b>git --version</b>
+                 - para ver qual é a versão do git instalada;
+            </li>
+
+            <li>
+                <b>git init</b>
+                 - para inicializar um novo repositório local;
+            </li>
+
+            <li>
+                <b>git status</b>
+                 - para ver um status atualizado sobre o repositório, se existem pendências ou se está tudo ok;
+            </li>
+
+            <li>
+                <b>git add \index.html</b>
+                 - após a criação de um arquivo, usar este comando para adicioná-lo ao fluxo do git;
+            </li>
+
+            <li>
+                <b>git add .</b>
+                 - para adicionar todas as alterações existentes ao fluxo de versionamento do git;
+            </li>
+
+            <li>
+                <b>git commit -a -m "create index.html"</b>
+                 - para fazer o commit das alterações;
+            </li> 
+
+            <li>
+                <b>git remote add origin <a href="https://github.com/juniortex/tutorial-git.git" target="_blank" title="link do repositório remoto">https://github.com/juniortex/tutorial-git.git</a></b>
+                 - para adicionar uma origem remota ao repositório, ou seja, fazer a conexão entre a pasta do repositório local com o repositório do github;
+            </li>
+
+            <li>
+                <b>git branch -M main</b>
+                 - para nomear o branch principal como main e parear a branch principal local com a remota, sincronizando-as.
+            </li>
+
+            <li>
+                <b>git push -u origin main</b>
+                 - para enviar o conteúdo do repositório local para o remoto, atualizando-o para que ambos tenham o mesmo conteúdo.
+            </li>
+
+            <li>
+                <b>git checkout -b "teste"</b>
+                 - cria uma branch nova com o nome 'teste' e muda o nosso fluxo para ela.
+            </li>
+
+            <li>
+                <b>git push --set-upstream origin teste</b>
+                 - como a branch "teste foi criada localmente, através do terminal, ela ainda não existe no repositório remoto, logo, se faz necessário o uso deste comando."
+            </li>
+
+            <li>
+                <b>git push</b>
+                 - enviar as alterações realizadas na branch local para o repositório remoto, quando a branch já existe em ambos."
+            </li>
+
+            <li>
+                <b>git checkout <a title="nome da branch para qual você quer alterar o fluxo">main</a></b>
+                 - para trocar de branch, alterando assim, o fluxo de versionamento.
+            </li>
+
+            <li>
+                <b>git branch</b>
+                 - ver a lista de branch's existentes na aplicação e confirmar em qual branch estamos trabalhando.
+            </li>
         </ul>
     </main>
 </body>

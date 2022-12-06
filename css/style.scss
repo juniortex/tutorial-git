@@ -23,6 +23,7 @@ body{
         color: #413932;
         font-weight: bold;
         transition: .3s ease;
+        cursor: pointer;
     
         &:hover{
             color: var(--primary-color);
@@ -70,6 +71,10 @@ body{
 
                 b{
                     color: var(--primary-color);
+
+                    span{
+                        cursor: pointer;
+                    }
                 }
             }
         }

@@ -23,6 +23,7 @@ body a {
   color: #413932;
   font-weight: bold;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 body a:hover {
   color: var(--primary-color);
@@ -62,4 +63,7 @@ body main ul li {
 }
 body main ul li b {
   color: var(--primary-color);
+}
+body main ul li b span {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
